@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'pm-root',
   // templateUrl: './app.component.html'
   // ...OR...
-  // template: 
+  // template:
   // "<h1>{{pageTitle}}</h1>"
   // ...OR...
   template:
@@ -16,6 +16,6 @@ import { Component } from '@angular/core';
   `
 })
 export class AppComponent {
-  title: string = 'Acme Product Management';
-  pageTitle: string = 'Acme Product Management';
+  title = 'Acme Product Management';
+  pageTitle = 'Acme Product Management';
 }
